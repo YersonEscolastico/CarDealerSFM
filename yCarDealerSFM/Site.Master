@@ -102,7 +102,7 @@
                     </button>
 
                            <a class="navbar-brand" >
-                               <img src="/imagenes/hj.ico"></a> 
+                               <img src="/Resources/hj.ico"></a> 
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
