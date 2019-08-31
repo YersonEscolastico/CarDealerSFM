@@ -59,7 +59,6 @@ namespace yCarDealerSFM.Registros
             usuarios.Nombres = NombresTextBox.Text;
             usuarios.NombreUsuario = NombreUsuarioTextBox.Text;
             usuarios.Contraseña = ContraseñaTextBox.Text;
-            usuarios.ConfirmarContraseña = ConfirmarContraseñaTextBox.Text;
             usuarios.TipoUsuario = TipoUsuarioDropDownList.Text;
             bool resultado = DateTime.TryParse(FechaTextBox.Text, out DateTime fecha);
             if (resultado)
@@ -73,7 +72,6 @@ namespace yCarDealerSFM.Registros
             NombresTextBox.Text = usuarios.Nombres;
             NombreUsuarioTextBox.Text = usuarios.NombreUsuario;
             ContraseñaTextBox.Text = usuarios.Contraseña;
-            ConfirmarContraseñaTextBox.Text = usuarios.ConfirmarContraseña;
             TipoUsuarioDropDownList.Text = usuarios.TipoUsuario;
             FechaTextBox.Text = usuarios.Fecha.ToString();
         }

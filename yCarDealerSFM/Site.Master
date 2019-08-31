@@ -132,8 +132,6 @@
             </div>
       
 
-
-
           <%--contenedor y pie de pagina--%>
         <div class=" container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
@@ -147,4 +145,5 @@
     </form>
 </body>
 </html>
+
 

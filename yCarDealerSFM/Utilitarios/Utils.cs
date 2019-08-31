@@ -37,5 +37,10 @@ namespace yCarDealerSFM.Utilitarios
             page.ClientScript.RegisterStartupScript(page.GetType(), "toastr_message",
                   String.Format("toastr.{0}('{1}', '{2}');", type.ToLower(), message, title), addScriptTags: true);
         }
+
+        internal static int ToInt(object text)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

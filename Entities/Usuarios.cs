@@ -14,7 +14,6 @@ namespace Entities
         public string Nombres { get; set; }
         public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
-        public string ConfirmarContraseña { get; set; }
         public string TipoUsuario { get; set; }
         public decimal TotalVendido { get; set; }
         public DateTime Fecha { get; set; }
@@ -25,7 +24,6 @@ namespace Entities
             Nombres = string.Empty;
             NombreUsuario = string.Empty;
             Contraseña = string.Empty;
-            ConfirmarContraseña = string.Empty;
             TipoUsuario = string.Empty;
             TotalVendido = 0;
             Fecha = DateTime.Now;
